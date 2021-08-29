@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-type Tabs = 'tab-favorites' | 'tab-pokemons';
+
 
 
 @Component({
@@ -10,7 +10,6 @@ type Tabs = 'tab-favorites' | 'tab-pokemons';
 })
 export class LayoutComponent{
 
-  public currentTab: Tabs = "tab-pokemons";
 
 
 }
